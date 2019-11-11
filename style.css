@@ -1,0 +1,198 @@
+
+/************************/
+/* 	    COLORS        */
+/************************/
+
+.primary {
+	background-color: #A33939;
+}
+
+.text-primary {
+  color: #A33939;	
+}
+
+.secondary {
+	background-color: #7D2C31;
+}
+
+.text-secondary {
+  color: #7D2C31;	
+}
+
+.dark {
+	background-color: #626262;
+}
+
+.text-dark {
+  color: #626262;
+}
+
+.medium-light {
+	background-color: #757575;
+}
+
+.text-medium-light {
+  color: #757575;
+}
+
+.light {
+	background-color: #878787;
+}
+
+.text-light {
+  color: #878787;
+}
+
+
+/************************/
+/* 	    Typo        */
+/************************/
+
+.headings {
+	font-family: Oswald;
+	font-size: 42px; 
+}
+
+.text {
+	font-family: Montserrat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Oswald";
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+p {
+	font-family: Montserrat;
+	margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 15px;
+    text-indent: 50px;
+
+}
+
+lead {
+	font-family: Montserrat;
+	margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 20px;
+  	text-decoration: underline;
+}
+
+blockquote {
+	font-family: Montserrat;
+	text-decoration: underline;
+}
+
+ul {
+	text-decoration: underline;
+}
+
+
+ol {
+	font-family: Montserrat;	
+}
+
+
+li {
+	font-family: Montserrat;	
+	list-style-type: disc;
+}
+
+
+/************************/
+/* 	    Buttons        */
+/************************/
+
+.btn-primary {
+	background-color: #ED5564;
+  	color: black;
+  	border: 2px solid #A33939;
+	font-size: 12px 28px;
+	padding: 10px 24px;
+	border-radius: 8px;
+	}
+
+.btn-warning {
+	background-color: #ED5564;
+  	color: black;
+  	border: 6px solid #A33939;
+	font-size: 16px 28px;
+	padding: 10px 24px;
+	border-radius: 8px;
+
+	}
+
+.btn-danger {
+	background-color: red;
+  	color: white;
+  	border: 10px solid #A33939;
+	font-size: 20px 28px;
+	padding: 10px 24px;
+	border-radius: 8px;
+	}
+
+.btn-info {
+	background-color: #ED5564;
+  	color: black;
+  	border: 10px solid #A33939;
+	font-size: 12px 22px;
+	padding: 10px 24px;
+	border-radius: 8px;
+	}
+
+.btn-success {
+	background-color: #ED5564;
+  	color: black;
+  	border: 10px solid blue;
+	font-size: 20px 28px;
+	padding: 10px 24px;
+	border-radius: 8px;
+	}
+
+.btn-outline-* {
+	background-color: white;
+}
+
+.btn-sm {
+	font-size: 8px 2px;
+}
+
+.btn-lg {
+	font-size: 28px 36px;
+}
+
+/************************/
+/* 	    Icons        */
+/*https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css*/
+/************************/
+
+
+
+/************************/
+/* 	    Forms inputs        */
+/************************/
+
+input {
+
+}
+
+select {
+
+}
+
+option {
+
+}
+textarea {
+
+}
+
+/*es radio buttons
+Les checkboxes*/
+
+
+
+
+
