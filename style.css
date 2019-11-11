@@ -1,22 +1,32 @@
 
+*{
+	background-color: #FFF5DE;
+	margin :15px;
+}
+
+body{
+	border: 1px;
+	border-radius: 8px;
+}
+
 /************************/
 /* 	    COLORS        */
 /************************/
 
 .primary {
-	background-color: #A33939;
+	background-color: #FFF5DE;
 }
 
 .text-primary {
-  color: #A33939;	
+  color: ##B3A689;	
 }
 
 .secondary {
-	background-color: #7D2C31;
+	background-color: #FFF5DE;
 }
 
 .text-secondary {
-  color: #7D2C31;	
+  color: ##B3A689;	
 }
 
 .dark {
@@ -55,20 +65,25 @@
 
 .text {
 	font-family: Montserrat;
+	color: ##8E8C89;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Oswald";
     font-weight: 400;
     margin: 10px 0;
+    color: #696151;
 }
 
 p {
 	font-family: Montserrat;
 	margin-top: 1.2em;
     margin-bottom: 1.2em;
-    font-size: 15px;
+    font-size: 16px;
     text-indent: 50px;
+    text-align: justify;
+    color: black;
+
 
 }
 
@@ -86,10 +101,8 @@ blockquote {
 }
 
 ul {
-	text-decoration: underline;
-	line-height: 40px;
-	border : 2px;
-
+	font-size: 18px;
+	line-height: 15px;
 }
 
 
@@ -99,25 +112,58 @@ ol {
 
 
 li {
-	font-family: Montserrat;	
+	font-family: Montserrat;
+	font-size: 18px;	
 	list-style-type: disc;
-	line-height: 40px;
-	text-decoration: underline;
+	line-height: 20px;
+	text-decoration: none;
+	text-indent: 1em;
+}
+
+li.limage {
+	list-style-image: url(ico/bx-log-in-circle.svg);
+	font-size: 18px;	
+	text-indent: 1em;
 
 }
 
+svg.banner { width: 60%; height: auto; }
 
 /************************/
 /* 	    Buttons        */
 /************************/
+.btn {
+	position: center;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	width: 100%;
 
+}
+
+.btn:hover {
+  background-color: #90FFD3;
+  color: #AB92B3;
+  box-shadow: 0 12px 26px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+
+}
 .btn-primary {
-	background-color: #ED5564;
-  	color: black;
-  	border: 2px solid #A33939;
+	background-color: #B3A689;
+  	color: white;
+  	border: 2px solid ##AB92B3;
 	font-size: 12px 28px;
-	padding: 10px 24px;
+	padding: 10px 78px;
 	border-radius: 8px;
+	width: 100%
+	}
+
+.btn-secondary {
+	background-color: ##6f504b;
+  	color: black;
+  	border: 2px solid ##746764;
+	font-size: 12px 28px;
+	padding: 10px 78px;
+	border-radius: 8px;
+	width: 100%
 	}
 
 .btn-warning {
@@ -157,8 +203,8 @@ li {
 	border-radius: 8px;
 	}
 
-.btn-outline-* {
-	background-color: white;
+.btn-outline {
+	background-color: #B3A689;
 }
 
 .btn-sm {
@@ -313,6 +359,47 @@ input[type="checkbox"]:after{
 input:checked[type="checkbox"]:after {
   left:110px;
 }
+
+/*Les cards*/
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #AB92B3;
+  width: 20rem;
+  height: auto;
+  display: inline-block;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+	width: 18rem;
+	margin-bottom: -1rem;
+}
+
+.card-body {
+	width: 18rem;
+	text-align: justify; 
+	display: inline-block;
+}
+
+.card-title {
+  text-decoration: underline;
+  text-transform: uppercase;
+
+}
+
+.card-text {
+	text-indent: 0em;
+	margin-bottom: 1rem;
+
+}
+
+
 
 
 

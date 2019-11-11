@@ -29,6 +29,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	ATOMS LIST
+
 * Colors
 * Typography
 * Buttons
@@ -39,20 +40,14 @@
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	COLORS
+	MOLECULE LIST
 
-* La couleur principale (primary) : #A33939
-* La couleur secondaire (secondary): #7D2C31
-* Trois nuances de gris :
-	* Un gris très foncé (dark): #626262
-	* Un gris plus clair (medium-light): #757575;
-	* Un gris très léger (light): #878787
-
->block quote
-* warning dans les tons oranges: #D67E83
-* danger dans les tons rouges: #BA42A8
-* success dans les tons vertes: #3BA54A
-* info dans les tons bleues: 3BAFB4
-
-    code (4 spaces indent)
-
+* Lists
+	-text
+	-image
+	-icon
+* Cards
+	-photo, title, par and button
+	-without photo
+	-with icon/avatar on left side and par on right side
+	-with photo that takes all and a title above
