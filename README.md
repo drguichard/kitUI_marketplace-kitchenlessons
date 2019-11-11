@@ -1,28 +1,40 @@
-# kitUI_marketplace-kitchenlessons
+# creating a UI kit 
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-     					kitUI_marketplace-kitchenlessons
-     						 
+
+### kitUI_marketplace-kitchenlessons
+>experimenting markdown tool and creating a UI kit to easen dev frontend
+  						 
+
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	INSPIRATIONS
-
-	- http://www.kitcheninthemarket.com/index.html 
-	- http://stlawrencemarket.com/food/763/
+- [kitcheninthemarket.com](http://www.kitcheninthemarket.com/index.html )
+- [stlawrencemarket.com](http://stlawrencemarket.com/food/763/)
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	PAGES
 
 * homepage : 
-	-introduction
-	-experiences quotes
+	* introduction
+	* experiences quotes
 * index:
-	-presentation
-	-list of next lessons (date) with small pres
+	* presentation
+	* list of next lessons (date) with small pres
 * lesson presentation
 * online participation form
 * contact 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	STYLES
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	CODE
+
+>block quote
+
+    code (4 spaces indent)
+
