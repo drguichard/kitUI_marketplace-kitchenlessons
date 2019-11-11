@@ -43,11 +43,11 @@
 	MOLECULE LIST
 
 * Lists
-	-text
-	-image
-	-icon
+	* text
+	* image
+	* icon
 * Cards
-	-photo, title, par and button
-	-without photo
-	-with icon/avatar on left side and par on right side
-	-with photo that takes all and a title above
+	* photo, title, par and button
+	* without photo
+	* with icon/avatar on left side and par on right side
+	* with photo that takes all and a title above
